@@ -1,0 +1,5 @@
+CREATE TABLE animal_pop (
+	id serial primary key,
+	animal varchar(80) NOT NULL,
+	number_animals  integer  
+);
