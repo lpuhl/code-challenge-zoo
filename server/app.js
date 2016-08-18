@@ -4,7 +4,6 @@ var path = require('path');
 var bodyParser = require('body-parser');
 
 // our routes
-var random = require('./routes/random');  // .js still assumed
 var animals = require('./routes/animals');  // .js still assumed
 
 app.use(bodyParser.urlencoded({ extended: true }));
